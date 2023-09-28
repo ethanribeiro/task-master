@@ -1,4 +1,5 @@
 <template>
+  <h1>TASK MASTER</h1>
   <div id="app">
     <h1>Your Tasks</h1>
     <task-form @task-added="addTask"></task-form>
@@ -33,17 +34,7 @@
         TaskItems: [
           {
             id: uniqueId('task-'),
-            label: 'Learn Vue',
-            done: false
-          },
-          {
-            id: uniqueId('task-'),
-            label: 'Create a Vue project with the CLI',
-            done: true
-          },
-          {
-            id: uniqueId('task-'),
-            label: 'Have fun',
+            label: 'Example task',
             done: false
           },
         ],
